@@ -1,0 +1,61 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Times New Roman', serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Times New Roman', serif;
+}
+
+img {
+  width: 90%;
+  
+}
+
+
+.refresh{
+  display: flex;
+  height: 100px;
+  width: 500px;
+  background-color: gray;
+  color: #4ECCA3;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 2rem;
+  font-size: 4rem;
+  font-family: 'Times New Roman', serif;
+  padding-left: 150px;
+  cursor: pointer;
+  transition: background-color 1s;
+  
+}
+.refresh:hover{
+  background-color: #4ECCA3;
+  color: gray;
+
+}
+.refresh:active{
+  background-color: gray;
+  color:#4ECCA3;
+}
